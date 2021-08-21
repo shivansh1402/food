@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.food{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    border-bottom: 2px solid black;
+}
+
+.descrip{
+    grid-area: 1/1/2/2;
+    margin: 5px;
+}
+
+
+
+.quantity{
+    grid-area: 1/2/2/3;
+    justify-self: right;
+    display: grid;
+    justify-content: center;
+    width: max-content;
+    margin: 2px ;
+}
+
+.button{
+    width: 40px;
+    margin: 5px;
+}
+
+.input{
+    width: 45px;
+    justify-items: center;
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+}
